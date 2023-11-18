@@ -1,4 +1,4 @@
-import HeaderSlicer from "../components/HeaderSlicer";
+import HeaderSlider from "../components/HeaderSlider";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getAllCategories } from "../store/categorySlice";
@@ -50,7 +50,7 @@ const HomePage = () => {
   return (
     <main>
       <div>
-        <HeaderSlicer />
+        <HeaderSlider />
       </div>
       <div>
         <div className="flex items-center justify-center">
